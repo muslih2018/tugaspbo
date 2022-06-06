@@ -1,0 +1,164 @@
+.Button{
+    -fx-background-color: #00BFA6;
+   
+    
+}
+.Button:hover{
+    -fx-background-color: #000000;
+   
+
+}
+
+.tipsandcontent{
+    -fx-background-color: #00BFA6;
+   
+    
+}
+.tipsandcontent:hover{
+    -fx-background-color: #000000;
+   
+}
+
+
+.next{
+    -fx-background-color:#00bfa6;
+   
+   
+    
+}
+
+
+.next:hover{
+    -fx-background-color:#000000;
+   
+   
+    
+}
+
+.home{
+    -fx-background-color:white;
+   
+}
+
+.home:hover{
+    -fx-background-color:#00bfa6;
+   
+}
+.aboutus{
+    -fx-background-color:white;
+   
+}
+
+.aboutus:hover{
+    -fx-background-color:#00bfa6;
+   
+}
+.aboutus2{
+    -fx-background-color:white;
+   
+}
+
+.aboutus2:hover{
+    -fx-background-color:#00bfa6;
+   
+}
+
+
+.Futsalbooking:hover{
+    -fx-text-fill:#00bfa6;
+
+  
+   
+}
+
+.basketballbooking:hover{
+    -fx-text-fill:#00bfa6;
+
+  
+   
+}
+
+.badmintonbooking:hover{
+    -fx-text-fill:#00bfa6;
+
+  
+   
+}
+.booking2{
+    -fx-background-color:white;
+   
+}
+
+.booking2:hover{
+    -fx-background-color:#00bfa6;
+   
+}
+.booking{
+    -fx-background-color:white;
+   
+}
+
+.booking:hover{
+    -fx-background-color:#00bfa6;
+   
+}
+.home2{
+    -fx-background-color:white;
+   
+}
+
+.home2:hover{
+    -fx-background-color:#00bfa6;
+   
+}
+
+.simpan{
+    -fx-background-color:white;
+}
+.simpan:hover{
+    -fx-background-color:#00bfa6;
+    -fx-text-fill:#ffffff;
+}
+
+
+.hapus{
+    -fx-background-color:white;
+ 
+}
+.hapus:hover{
+    -fx-background-color:#00bfa6;
+    -fx-text-fill:#ffffff;
+}
+
+
+.kembali{
+    -fx-background-color:white;
+   
+}
+
+.kembali:hover{
+    -fx-background-color:#00bfa6;
+    -fx-text-fill:#ffffff;
+   
+}
+.sisfo{
+    -fx-background-color:#00bfa6;
+}
+
+
+.sisfo:hover{
+    -fx-background-color:#ffffff;
+}
+
+
+.sifo2{
+    -fx-background-color:#017364;
+}
+
+.sifo2:hover{
+    -fx-background-color:#000000;
+   
+    -fx-transition: 10s;
+   
+   
+}

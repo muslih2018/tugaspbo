@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="500.0" prefWidth="864.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlaboutus">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button layoutX="540.0" layoutY="60.0" mnemonicParsing="false" onAction="#switchtolayout" prefHeight="20.0" prefWidth="63.0" style="-fx-background-radius: 25;" styleClass="home2" stylesheets="@button.css" text="Home" textAlignment="CENTER">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="203.0" fitWidth="216.0" layoutX="-69.0" layoutY="-49.0" opacity="0.34" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@titik1.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="627.0" layoutY="60.0" mnemonicParsing="false" onAction="#switchtolayout2" prefHeight="20.0" prefWidth="63.0" style="-fx-background-radius: 25;" styleClass="booking2" stylesheets="@button.css" text="Booking" textAlignment="CENTER">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Button layoutX="713.0" layoutY="60.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="63.0" style="-fx-background-radius: 25; -fx-background-color: #00BFA6;" text="About us" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="182.0" layoutX="109.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@20220524_174502.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="328.0" fitWidth="349.0" layoutX="448.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@20220529_213714.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="704.0" layoutY="197.0" text="?">
+               <font>
+                  <Font name="System Bold" size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="562.0" layoutY="173.0" text="?">
+               <font>
+                  <Font name="System Bold" size="43.0" />
+               </font>
+            </Label>
+            <Label layoutX="540.0" layoutY="249.0" text="?">
+               <font>
+                  <Font name="System Bold" size="37.0" />
+               </font>
+            </Label>
+            <Label layoutX="588.0" layoutY="340.0" prefHeight="58.0" prefWidth="203.0" rotate="-2.7" text="who we are ?">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="134.0" layoutY="148.0" prefHeight="50.0" prefWidth="134.0" text="Pemula" textFill="#00bfa6">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Label>
+            <Text layoutX="134.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kami adalah mahasiswa semester dua,program studi sistem informasi,ini adalah software pertama kami yang kami buat sebagai tugas akhir mata kuliah pemograman berorientasi objek.kami berasal dari kelompok 15,yang terdiri dari dua anggota kelompok yaitu saya Moh muslih sahmat dan muh.taufiqurahman." wrappingWidth="343.73670959472656">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
+            <Hyperlink fx:id="hyperlink" layoutX="120.0" layoutY="270.0" onAction="#openlink1" prefHeight="46.0" prefWidth="46.0" style="-fx-background-color: transparent; -fx-border-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="51.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@20220604_080303.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Hyperlink>
+            <Hyperlink fx:id="hyperlink2" layoutX="174.0" layoutY="274.0" onAction="#openlink2" prefHeight="34.0" prefWidth="43.0" style="-fx-background-color: transparent; -fx-border-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@20220604_080111.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Hyperlink>
+            <Hyperlink fx:id="hyperlink3" layoutX="226.0" layoutY="266.0" onAction="#openlink3" prefHeight="42.0" prefWidth="47.0" style="-fx-background-color: transparent; -fx-border-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="61.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@20220604_080209.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Hyperlink>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
